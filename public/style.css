@@ -1,0 +1,182 @@
+.navbar {
+    background-color:  blueviolet !important;
+    width: 100%;
+}
+.nav-link {
+    font-weight: bold;
+    color:  #fff !important;
+}
+.nav-item a:hover {
+    border-bottom: 3px solid red;
+}
+.active1 {
+    border-bottom: 3px solid red;
+  }
+.nav-item h6 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.fa-user-circle {
+    font-size: 25px !important;
+}
+.fa-shopping-cart {
+    font-size: 25px !important;
+}
+.fa-search {
+    font-size: 40px !important;
+}
+.fa-cart-plus {
+    font-size: 40px !important;
+}
+.fa-archive {
+    font-size: 40px !important;
+}
+.searchbar {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+    height: auto;
+    margin-left: 30px;
+}
+
+
+#title {
+    text-align: center;
+    padding-top: 80px;
+}
+#body {
+    background-color: #f7f8fa;
+}
+.populorproducts {
+    margin: 25px;
+
+}
+.card-img-top {
+    width: 285px !important;
+}
+#third {
+    justify-content: center;
+}
+ 
+.card {
+    justify-content: center;
+}
+.f1 {
+    width: 285px;
+}
+.f2 {
+   height: 280px !important;
+}
+.f3 {
+    height: 260px !important;
+}
+.f4 {
+    height: 260px;
+}
+
+.featuredroducts1 {
+    margin-top: 25px !important;
+}
+.footer {
+    background-color: #333333 !important;
+    color: #fff;
+    margin-top: 200px;
+}
+.text-center {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer i {
+    color: white;
+    background-color: #316DD9;
+    border-radius: 10 0px;
+    margin-right: 5px;
+    padding: 5px 6px;
+    font-size: 18px;
+}
+.lowerfooter {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.scroll > a >img {
+    width: 30px;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 5%;
+    left: 95%;
+    max-width: 30px;
+    width: 100%;
+}
+.scroll {
+    background-color: #333333;
+}
+.foot {
+    margin-top: 270px;
+}
+.contact {
+    margin-top: 170px;
+}
+
+.last {
+    margin-top: 110px;
+}
+.crt {
+    margin-top: 70px;
+}
+.user {
+    padding-left: 10px;
+}
+.login {
+    padding-top: 40px;
+}
+.bttn {
+    background-color: blueviolet;
+    color: #fff;
+}
+.pass {
+    margin-left: 100px;
+}
+.Google {
+    margin-left: 30px;
+}
+.frst {
+    color: red;
+}
+.hazi {
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .card {justify-content: center;}
+    .card {margin-left: 15%;}
+    .card {margin-top: 40px;}
+}
+@media screen and (min-width: 567px) {
+    .card {justify-content: center;}
+    .card {margin-left: 27%;}
+    .card {margin-top: 40px;}
+}
+@media screen and (min-width: <=480px) {
+    .scroll{
+        right: 50%;
+        left: 50%;
+    }
+}
+/* @media screen and (min-width: <=480px) {
+    .scroll
+        right: 50%;
+        left: 50%;
+    }
+} */
+ 
